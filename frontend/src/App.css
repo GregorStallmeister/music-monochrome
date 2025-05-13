@@ -1,42 +1,104 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+    margin: 0 auto;
+    text-align: left;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: black;
+    border: 50px solid #C7C7C7;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    font-family: "Courier New", sans-serif;
+    font-size: 12pt;
+    font-weight: normal;
+    color: lightgreen;
+    width: 1024px;
+    min-height: 400px;
+    margin: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.display {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .card {
-  padding: 2em;
+       margin: 5px;
 }
 
-.read-the-docs {
-  color: #888;
+.cardEntry {
+    margin: 15px;
+    text-align: center;
+}
+
+.header {
+    margin-top: 10px;
+    vertical-align: bottom;
+}
+
+button {
+    padding: 3px;
+    background-color: black;
+    color: lightgreen;
+    border-radius: 8px;
+    border: 1px solid lightgreen;
+}
+
+button:hover {
+    border-color: green;
+}
+
+input {
+    padding: 3px;
+    background-color: black;
+    color: lightgreen;
+    border-color: lightgreen;
+    border-style:  solid;
+}
+
+a {
+    color: cadetblue;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+li {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+td {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    font-weight: normal;
 }
